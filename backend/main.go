@@ -5,8 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-
-	"secure-server/middleware"
+	"secure-server/backend/middleware"
 
 	"github.com/gin-gonic/gin"
 )

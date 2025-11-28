@@ -6,9 +6,8 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"secure-server/backend/pkg/crypto"
 	"strings"
-
-	"secure-server/pkg/crypto" // Kendi crypto paketimizi kullanıyoruz
 
 	"github.com/gin-gonic/gin"
 )
